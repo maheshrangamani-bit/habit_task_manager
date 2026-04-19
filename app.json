@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Habit Task Manager",
+    "slug": "habit-task-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.habittaskmanager",
+      "infoPlist": {
+        "UIBackgroundModes": ["fetch", "remote-notification"]
+      }
+    },
+    "android": {
+      "package": "com.example.habittaskmanager",
+      "permissions": ["RECEIVE_BOOT_COMPLETED", "VIBRATE"]
+    },
+    "plugins": ["expo-notifications"]
+  }
+}
